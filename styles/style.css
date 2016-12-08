@@ -1,0 +1,875 @@
+html,
+body {
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    background-color: #eeeeee;
+}
+
+#top {
+    position: fixed;
+    top: 0px;
+    height: 5em;
+    width: 100%;
+}
+
+#banner {
+    background-color: #388c94;
+    color: white;
+    text-shadow: 2px 2px black;
+    width: 100%;
+}
+
+#banner h1 {
+    font-family: Georgia, serif;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    max-width: 92%;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+#nav_bar {
+    background-color: #daeff1;
+    font-family: Georgia, serif;
+    margin-right: auto;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    max-width: 92%;
+}
+
+#nav_bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#nav_bar li {
+    float: left;
+    border-right: 1px solid #ffffff;
+}
+
+#nav_bar li:last-child {
+    border-right: none;
+}
+
+#nav_bar li a {
+    display: block;
+    color: #124b52;
+    text-align: center;
+    font-size: 105%;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+#nav_bar li a:hover {
+    background-color: #6bbfc7;
+    text-shadow: 1px 1px white;
+    font-style: oblique;
+}
+
+#container {
+    max-width: 92%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #fff;
+}
+
+.poster {
+    margin-top: 6em;
+    margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0em;
+}
+
+.poster > img {
+    width: 100%;
+}
+
+#content {
+    width: 100%;
+}
+
+#content .welcome {
+    text-align: center;
+    background: #fff;
+    width: 92%;
+    margin-left: 4%;
+}
+
+#content .welcome h3 {
+    font-size: 2em;
+    text-transform: capitalize;
+    color: #DA6A3C;
+    font-weight: bolder;
+    font-family: cursive;
+    margin-bottom: 0px;
+}
+
+#content .welcome h4 {
+    font-size: 1.5em;
+    text-transform: capitalize;
+    color: #DA6A3C;
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+#content .welcome .welcome-girds {
+    width: 100%;
+}
+
+.welcome-girds .left {
+    float: left;
+    width: 50%;
+}
+
+.welcome-girds .right {
+    display: inline-block;
+    width: 50%;
+}
+
+.image_box {
+    margin-right: auto;
+    margin-bottom: 1em;
+    margin-left: auto;
+    padding-top: .25em;
+}
+
+.image_box > img {
+    display: block;
+    margin: auto;
+    max-width: 95%;
+}
+
+.image_box p {
+    margin-top: 0.5em;
+    font-family: 'Open Sans', sans-serif;
+    color: #DA6A3C;
+    font-weight: bolder;
+    font-size: 1.7em;
+}
+
+.image_box .demo {
+    border-radius: 30px;
+}
+
+#content .about {
+    color: #000;
+    width: 100%;
+    background: url(../images/apple_fes8.png) repeat;
+    /*image creddit to https://tnuqq21kt870t8n1egkbrmbr-wpengine.netdna-ssl.com/wp-content/uploads/2014/04/rochester-fringe-fest.jpg */
+    padding-bottom: 1em;
+}
+
+#content .about h3 {
+    font-size: 1.7em;
+    color: #350101;
+    font-weight: bolder;
+    font-family: 'Patrick Hand', cursive;
+    text-align: center;
+    padding-top: 1em;
+    border-bottom: none;
+}
+
+#content .about h4 {
+    font-size: 1.4em;
+    color: #350101;
+    font-weight: bolder;
+    font-family: cursive;
+    border-bottom: none;
+    padding-left: 5%;
+}
+
+#content .about h5 {
+    padding-left: 10%;
+    font-size: 110%;
+    font-family: "Georgia";
+}
+
+#content .about p {
+    margin: 2em;
+    font-size: 1.1em;
+    color: #350101;
+    border-bottom: none;
+    font-weight: bold;
+    font-family: 'Georgia';
+}
+
+#content .video {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 2em;
+}
+
+.video > iframe {
+    width: 70%;
+    height: 500px;
+    border: 0px;
+}
+
+#content .video h3 {
+    font-size: 2.5em;
+    text-transform: capitalize;
+    color: #DA6A3C;
+    font-weight: bolder;
+    font-family: 'Patrick Hand', cursive;
+}
+
+
+/*Events page styling*/
+
+.block1 {
+    max-width: 100%;
+    background-color: #ebf7f9;
+    height: 300px
+}
+
+.block2 {
+    max-width: 100%;
+    height: 300px;
+}
+
+.eventline {
+    max-width: 92%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-bottom: 1em;
+}
+
+.eventline img {
+    max-width: 92%;
+    margin: auto;
+}
+
+.col_6 {
+    float: left;
+    width: 37.5%;
+}
+
+.col_6 >img {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+}
+
+.col_9 {
+    width: 56.25%;
+    display: inline-block;
+}
+
+.col_9 > h3 {
+    font-size: 1.7em;
+    color: #DA6A3C;
+    font-weight: bolder;
+    font-family: cursive;
+    margin-bottom: 0px;
+    margin-top: 12px;
+}
+
+.col_9 > h4 {
+    font-size: 1em;
+    color: #DA6A3C;
+    font-weight: bolder;
+    font-family: cursive;
+    margin-bottom: 0px;
+    margin-top: 12px;
+}
+
+.col_9 > p {
+    margin-bottom: 15px;
+    font-size: 17px;
+    color: #777777;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none
+}
+
+a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline
+}
+
+
+/*TimeVenue page styling*/
+
+
+
+
+#map {
+    max-width: 100%;
+    text-align: center;
+    font-size: 1.7em;
+    text-transform: capitalize;
+    color: #DA6A3C;
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+#map img {
+    width: 98%;
+}
+
+#transportation {
+    max-width: 100%;
+    text-align: center;
+    font-size: 1.7em;
+    text-transform: capitalize;
+    color: #DA6A3C;
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+#transportation h3 {
+    color: #388c94;
+}
+
+#transportation .largeTable {
+    width: 80%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family: Muli, sans-serif;
+    margin: 0px auto;
+    color: #388c94;
+    margin-bottom: 1.5em;
+}
+
+#transportation .smallTable {
+    width: 80%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family: Muli, sans-serif;
+    margin: 0px auto;
+    color: #388c94;
+    margin-bottom: 1.5em;
+}
+
+#transportation tr td {
+    border-bottom: solid 1px #388c94;
+    text-align: center;
+}
+
+#transportation th {
+    border-bottom: solid 3px #388c94;
+}
+
+#transportation td {
+    padding: 0.5em;
+}
+
+#transportation table a {
+    text-align: center;
+    font-size: 80%;
+    color: #388c94;
+    font-family: Georgia, serif;
+    padding-bottom: 1em;
+}
+
+#transportation table td {
+    text-align: center;
+    font-size: 80%;
+    color: #388c94;
+    font-family: Georgia, serif;
+    padding-bottom: 1em;
+}
+
+#transportation a {
+    font-family: cursive;
+    color: #388c94;
+}
+
+
+
+#taxi {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2em;
+    text-transform: capitalize;
+    color: #DA6A3C;
+    font-weight: bolder;
+    font-family: cursive;
+    margin-bottom: 0px;
+}
+
+#taxi {
+    font-size: 1.7em;
+}
+#taxi .biglist {
+    list-style-type: none;
+    font-family: "Georgia";
+    width: 30%;
+    margin: auto;
+    line-height: 2;
+    font-size: 80%;
+}
+
+#taxi ul li a {
+    
+    color: black;
+    font-weight: 800;
+}
+
+#taxi .sublist {
+    list-style-type: square;
+}
+
+
+/*food and fun styling*/
+
+#content .schedule {
+    text-align: center;
+    background: #fff;
+    width: 100%;
+    margin-top: 3em;
+}
+
+.schedule h2 {
+    font-size: 1.7em;
+    text-transform: capitalize;
+    color: #DA6A3C;
+    font-weight: bolder;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.schedule .bmp {
+    width: 100%;
+}
+
+.schedule .bmp .left {
+    float: left;
+    width: 40%;
+}
+
+.schedule .bmp .right {
+    display: inline-block;
+    width: 60%;
+    float: left;
+}
+
+.schedule .bmp2 {
+    width: 100%;
+}
+
+.schedule .bmp2 .bottom {
+    display: inline-block;
+    width: 100%;
+    clear: left;
+}
+
+.schedule table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family: Muli, sans-serif;
+    margin: 0px auto;
+    margin-top: 1.5em;
+}
+
+.schedule tr td {
+    border-bottom: solid 1px #DA6A3C;
+    text-align: center;
+}
+
+.schedule th {
+    border-bottom: solid 3px #DA6A3C;
+}
+
+.schedule td {
+    padding: 0.5em;
+}
+
+caption {
+    caption-side: bottom;
+    color: #DA6A3C;
+    font-weight: bolder;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.25em;
+    margin-top: 1em;
+}
+
+#photogallery {
+    width: 60%;
+    margin: auto;
+}
+
+#photogallery h2 {
+    text-align: center;
+    font-size: 1.7em;
+    text-transform: capitalize;
+    color: #DA6A3C;
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+#photogallery img {
+    width: 100%;
+}
+
+#nav_pic {
+    padding-left: 43%;
+    padding-bottom: 2em;
+}
+
+#nav_pic button {
+    text-align: center;
+    font-size: 110%;
+    font-family: 'Georgia';
+    background-color: #daeff1;
+}
+
+
+/* Footer */
+
+#contactfooter {
+    padding-top: 40px;
+    width: 92%;
+    margin: 0 auto;
+    /*http://www.downtownithaca.com/local/images/img-downtown-ithaca.png*/
+    background: #ebf7f9 url(../images/img-downtown-ithaca.png) no-repeat 2% 0;
+    /* http://www.downtownithaca.com/local/images/img-downtown-ithaca.png */
+    opacity: 0.9;
+}
+
+#footer-content {
+    width: 96%;
+    height: 10px;
+    margin: 0 auto;
+    color: #606060;
+    padding: 0px 0 60px 0;
+    border-top: 2px solid #00456c;
+    border-bottom: 2px solid #00456c;
+    margin-bottom: 5px;
+}
+
+#footer-content a {
+    color: #606060;
+}
+
+#footer-content .left {
+    float: left;
+    width: 50%;
+    height: 70px;
+    line-height: 20px;
+    font-size: 12px;
+    border-right: 2px solid #00456c;
+}
+
+#footer-content .left ul {
+    list-style: none;
+}
+
+#footer-content .left ul li {
+    display: inline-block;
+    height: 40px;
+    border-right: 1px dashed #a7a7a7;
+}
+
+#footer-content .left ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#footer-content .left ul li span {
+    visibility: hidden;
+}
+
+.ico-fb {
+    width: 10%;
+    height: 46px;
+    /*http://www.downtownithaca.com/local/images/ad_fb.jpg*/
+    background: url(../images/ad_fb.jpg) no-repeat center center;
+    padding: 0 12px;
+}
+
+.ico-tweeter {
+    width: 10%;
+    height: 46px;
+    /*http://www.downtownithaca.com/local/images/ad_twitter.jpg*/
+    background: url(../images/ad_twitter.jpg) no-repeat center center;
+    padding: 0 12px;
+}
+
+.ico-flickr {
+    width: 10%;
+    height: 46px;
+    /*http://www.downtownithaca.com/local/images/ad_flickr.jpg*/
+    background: url(../images/ad_flickr.jpg) no-repeat center center;
+    padding: 0 12px;
+}
+
+.ico-yt {
+    width: 10%;
+    height: 46px;
+    /*http://www.downtownithaca.com/local/images/ad_youtube.jpg*/
+    background: url(../images/ad_youtube.jpg) no-repeat center center;
+    padding: 0 12px;
+}
+
+.ico-mail {
+    width: 10%;
+    height: 46px;
+    /*http://www.downtownithaca.com/local/images/img-ico-mail.jpg*/
+    background: url(../images/ad_mail.jpg) no-repeat center center;
+    padding: 0 5px;
+    border-right: none !important;
+}
+
+#footer-content .right {
+    float: left;
+    padding-left: 15px;
+    width: 45%;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+#footer-content .right ul {
+    list-style: none;
+}
+
+#footer-content .right ul li {
+    display: inline-block;
+    height: 46px;
+}
+
+#footer-content .right ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#footer-content .right ul li span {
+    visibility: hidden;
+}
+
+.ico-tcat {
+    width: 15%;
+    height: 46px;
+    /*http://www.downtownithaca.com/local/images/img-ico-tcat.jpg*/
+    background: url(../images/img-ico-tcat.jpg) no-repeat center center;
+    padding: 0 15px;
+}
+
+.ico-iloveny {
+    width: 15%;
+    height: 46px;
+    /*http://www.downtownithaca.com/local/images/img-ico-iloveny.jpg*/
+    background: url(../images/img-ico-iloveny.jpg) no-repeat center center;
+    padding: 0 15px;
+}
+
+.ico-visitithaca {
+    width: 25%;
+    height: 46px;
+    /*http://www.downtownithaca.com/local/images/img-ico-visitithaca.jpg*/
+    background: url(../images/img-ico-visitithaca.jpg) no-repeat center center;
+    padding: 0 0 0 15px;
+}
+
+footer {
+    background-color: #daeff1;
+    color: #124b52;
+    display: none;
+    font-size: 10px;
+    margin: 10px auto 0 auto;
+    padding: 10px 0;
+    text-align: center;
+    width: 92%;
+}
+
+@media screen and (min-width: 1200px) {
+    /*laptop*/
+    #container {
+        width: 92%;
+    }
+    #transportation .smallTable {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+    /*tablet*/
+    #container {
+        width: 92%;
+    }
+    #contactfooter {
+        display: none;
+    }
+    footer {
+        display: block;
+    }
+    .video >iframe {
+        height: 325px;
+    }
+    #taxi .biglist {
+        width: 50%;
+    }
+    #transportation .smallTable {
+        display: none;
+    }
+     .block1 {
+        height: 360px;
+    }
+    .block2 {
+        height: 360px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 480px) {
+    /*phone landscape*/
+    #nav_bar {
+        font-size: 75%;
+    }
+    #nav_bar li a {
+        padding: 10px 10px;
+    }
+    #contactfooter {
+        display: none;
+    }
+    footer {
+        display: block;
+    }
+    .video >iframe {
+        height: 275px;
+    }
+    #transportlink {
+        display: block;
+    }
+    #taxi .biglist {
+        width: 60%;
+    }
+    .block1 {
+        height: 330px;
+    }
+    .block2 {
+        height: 330px;
+    }
+    .col_6 {
+        display: none;
+    }
+    .col_9 {
+        width: 100%;
+    }
+    #photogallery {
+        display: none;
+    }
+    #nav_pic {
+        display: none;
+    }
+    .schedule .bmp .left {
+        width: 100%;
+    }
+    .schedule .bmp .right {
+        width: 100%;
+        clear: left;
+    }
+    #transportation .largeTable {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /*phone portrait*/
+    #banner h1 {
+        font-size: 120%;
+    }
+    
+    #nav_bar {
+        font-size: 70%;
+    }
+    #nav_bar li a {
+        padding: 5px 5px;
+    }
+    .poster {
+        display: none;
+    }
+    .welcome-girds {
+        display: none;
+    }
+    #content {
+        padding-top: 5em;
+    }
+    .video >iframe {
+        height: 200px;
+    }
+    #contactfooter {
+        display: none;
+    }
+    footer {
+        display: block;
+    }
+    #taxi .biglist {
+        width: 80%;
+    }
+    .block1 {
+        height: 410px;
+    }
+    .block2 {
+        height: 410px;
+    }
+
+    .col_6 {
+        display: none;
+    }
+    .col_9 {
+        width: 100%;
+    }
+    #photogallery {
+        display: none;
+    }
+    #nav_pic {
+        display: none;
+    }
+    .schedule .bmp .left {
+        width: 100%;
+    }
+    .schedule .bmp .right {
+        width: 100%;
+        clear: left;
+    }
+    #transportation tr{
+        font-size: 80%;
+    }
+    #transportation .largeTable {
+        display: none;
+    }
+    
+    #transportation h3 {
+        font-size: 80%;
+    }
+    #transportation a {
+        font-size: 0.8em;
+    }
+
+
+}
